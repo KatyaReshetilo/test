@@ -32,7 +32,7 @@ export default function Modal({ onClose, country }) {
         <h2 className={s.modalHead}>{country.Country}</h2>
         <table>
           <tbody>
-            <tr className={s.modalItem}>
+            <tr className={s.firstModalItem}>
               <td className={s.criterion}>
                 <FaHeartbeat
                   style={{
