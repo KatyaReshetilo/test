@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+.mainHead {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  display: block;
+  max-width: 200px;
+  max-width: 200px;
+}
+.label {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+
+  padding-right: 22px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 33rem;
+  height: 80px;
+  align-items: center;
+}
+.input {
+  border: none;
+  outline: none;
+  width: 80%;
+  height: 90%;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.17;
+}
+input::placeholder {
+  color: #b2b2b2;
+}

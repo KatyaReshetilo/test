@@ -1,0 +1,15 @@
+.sortButton {
+  display: inline-block;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 10px;
+  border-radius: 45%;
+  height: 30px;
+  align-items: center;
+}
+.sortButton:hover,
+.sortButton:focus {
+  box-shadow: rgb(240, 239, 245) 1px 0 10px;
+}
